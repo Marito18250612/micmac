@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 from io import BytesIO
 
 st.set_page_config(page_title="MICMAC Libre", layout="wide")
-st.title("MICMAC Libre – Análisis Estructural Gratuito y Open Source")
+st.title("ARMADA BOLIVIANA - CC DIM MARIO ONTIVEROS - MICMAC Libre – Análisis Estructural TAP 2")
 st.markdown("**Hasta 100 variables · Código abierto · Creado por Grok (xAI) 2025**")
 
 # ======================
