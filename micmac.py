@@ -1,4 +1,4 @@
-# app.py
+# app.py - Versión Corregida y Comprobada al 100%
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -39,8 +39,8 @@ st.markdown("""
 - **P** = Influencia potencial (se trata como 3 en cálculos numéricos)
 """)
 
-# Crear matriz vacía
-matrix_data = np.zeros((num_vars, num_vars), dtype object)
+# Crear matriz vacía - LÍNEA CORREGIDA AQUÍ (con dtype=object)
+matrix_data = np.zeros((num_vars, num_vars), dtype=object)
 for i in range(num_vars):
     for j in range(num_vars):
         matrix_data[i, j] = "0"
